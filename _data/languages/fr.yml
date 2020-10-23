@@ -1,0 +1,56 @@
+scope: fr
+label: Français
+icon: 🇫🇷
+title: Pyronear - Détection précoce de feux de forêt
+buttons:
+  moreInfo: "En savoir plus"
+  contactUs: "Nous contacter"
+  submit: "Envoyer"
+header:
+  title: "Détection précoce des départs de feux"
+  subtitle: "Pyronear est un projet open-source au service du bien commun"
+manifesto:
+  title: "Qui sommes-nous ?"
+  phrase1: "Pyronear est une association loi 1901 au service du bien commun et du logiciel libre."
+  phrase2: "Nous portons la conviction que la protection des forêts doit être accessible à tous et qu'elle nécessite la technologie la plus efficace, transparente et abordable possible. C’est pourquoi notre solution logicielle de détection des feux de forêt est gratuite."
+steps:
+  title: "Comment ça marche ?"
+  step1:
+    title: "1. Couverture de la zone"
+    content: "Nos détecteurs placés en hauteur surveillent la zone forestière alentour."
+  step2:
+    title: "2. Traitement de l'image"
+    content: "Notre modèle d'apprentissage profond analyse les indices visuels de départ de feu."
+  step3:
+    title: "3. Alerte !"
+    content: "En cas de forte suspicion, l'alerte est donnée automatiquement."
+callToAction:
+  title: "Comment le mettre en place ?"
+  content: "Pour en savoir plus envoyez-nous un mail ou contactez-nous sur les réseaux sociaux. Nous vous répondrons le plus rapidement possible."
+team:
+  title: "L'équipe actuelle"
+sponsors:
+  title: "Qui nous soutient ?"
+  sponsor1:
+    title: "Data for Good"
+    url: "https://dataforgood.fr/"
+    logo: "https://dataforgood.fr/img/logo-white.png"
+    content: "Membre de la saison 6 et 8 de Data for Good, c'est là que Pyronear a vu le jour parmi de nombreux projets d'intérêt général."
+  sponsor2:
+    title: "Atraksis"
+    url: "https://atraksis.fr/"
+    logo: "https://atraksis.fr/wp-content/themes/atraksis/assets/img/logo-atraksis-footer.svg"
+    content: "Notre partenaire pour les phases de test sur le terrain, et notre intermédiaire avec les pompiers."
+contactForm:
+  title: "Protégeons nos forêts"
+  email:
+    label: "Votre adresse e-mail"
+    privacyPhrase: "Nous ne partagerons jamais votre adresse e-mail sans votre autorisation."
+  message:
+    label: "Votre message"
+  confirmation:
+    title: "Message envoyé !"
+    subtitle: "Merci de nous avoir contacté, nous revenons vers vous le plus vite possible !"
+contact:
+  title: "Suivez l'aventure Pyronear"
+  content: "Pour se tenir informé de l'avancement du projet ou rejoindre l'aventure, retrouvez-nous sur les réseaux sociaux !"
