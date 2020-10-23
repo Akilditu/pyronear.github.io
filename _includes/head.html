@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Pyronear - Détection précoce de feux de forêt</title>
+    <title>{{ content.title }}</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -39,5 +39,9 @@
 
     <!-- SEO -->
     {% seo %}
+
+    <!-- Multi-language -->
+    <link rel="alternate" hreflang="fr" href="{{ site.data.fr.url }}" />
+    <link rel="alternate" hreflang="en" href="{{ site.data.en.url }}" />
 
 </head>

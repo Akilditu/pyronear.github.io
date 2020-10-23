@@ -24,22 +24,19 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div
+<!--     <div
       class="collapse navbar-collapse lang"
       id="bs-example-navbar-collapse-1"
     >
       <ul class="nav navbar-nav navbar-right">
+        {% for item in site.data.languages %}
+        {% assign lang = item[1] %}
         <li>
-          <!-- <a href="{{ site.base-url }}{{ siteFR.url }}">🇫🇷fr</a> -->
+          <a href="{{ site.url }}/{{ lang.scope }}">{{ lang.icon }}</a>
         </li>
-        <li>
-          <!-- <a href="{{ site.base-url }}{{ sitePT.url }}">🇵🇹pt</a> -->
-        </li>
-        <li>
-          <!-- <a href="{{ site.base-url }}{{ siteES.url }}">🇪🇸es</a> -->
-        </li>
+        {% endfor %}
       </ul>
-    </div>
+    </div> -->
     <!-- /.navbar-collapse -->
   </div>
   <!-- /.container-fluid -->
